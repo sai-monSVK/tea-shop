@@ -1,8 +1,9 @@
-html, body {
+html,
+body {
     background-color: black;
     font-family: Helvetica;
     font-size: 22px;
-    color: rgba(255,245,238,0.8);
+    color: rgba(255, 245, 238, 0.8);
     text-align: center;
 }
 
@@ -23,7 +24,7 @@ header {
 header img {
     height: 50px;
     padding-left: 10px;
-    opacity: 0.9;   
+    opacity: 0.9;
 }
 
 .nav {
@@ -35,7 +36,7 @@ header img {
 .nav li {
     display: inline-block;
     text-decoration: underline;
-    color: rgba(255,245,238,0.8);
+    color: rgba(255, 245, 238, 0.8);
     padding-left: 10px;
 }
 
@@ -47,13 +48,14 @@ header img {
     width: 100%;
     max-width: 1200px;
     height: 700px;
-    margin: 70px auto 0 auto; 
+    margin: 70px auto 0 auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.mission h2, h4 {
+.mission h2,
+h4 {
     width: 100%;
     background-color: black;
     margin: 0;
@@ -74,6 +76,7 @@ header img {
 .img-with-text {
     padding: 16px;
 }
+
 .img-with-text img {
     max-width: 300px;
     max-height: 200px;
@@ -83,3 +86,22 @@ header img {
     padding-top: 0;
 }
 
+.locations {
+    display: flex;
+    max-width: 1200px;
+    height: 500px;
+    width: 100%;
+    background-image: url(resources/img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.adresses {
+    background-color: black;
+    max-width: 300px;
+    padding: 10px;
+    margin: 40px;
+}
