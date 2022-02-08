@@ -1,7 +1,7 @@
 html,
 body {
     background-color: black;
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: rgba(255, 245, 238, 0.8);
     text-align: center;
